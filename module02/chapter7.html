@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Module 02 Form Practice">
+    <meta name="author" content="Josh Gibson">
+    <meta name="robots" content="noindex">
+    <title>Module #2</title>
+  </head>
+
+  <body>
+    <form action="thankyou.html">
+      
+        <fieldset>
+        <legend>User Information</legend>
+        <label>Enter your name:<br>
+          <input type="text" name="name" /><br>
+        </label>
+        <label>Enter your password:<br>
+          <input type="password" name="psswrd" /><br>
+        </label>
+        <label>Tell us about you:<br>
+          <textarea name="descrip"></textarea>
+        </label>
+      </fieldset>
+      
+      <p>
+        Are you new to my site?<br>
+        <input type="radio" id="yes" name="new" value="y">
+        <label for="yes">Yes</label>
+        &nbsp;&nbsp;
+        <input type="radio" id="no" name="new" value="n">
+        <label for="no">No</label>
+      </p>
+      
+      <label for="subscribe">Do you want to subscribe to my blog?</label>
+      <input type="checkbox" id="subscribe" name="sbscrbe" value="y">
+      
+      <p>
+        What is your student's year?
+        <select name="year" value="null">
+          <option value="null" selected="selected">Select one option...</option>
+          <option value="freshman">Freshman</option>
+          <option value="sophomore">Sophomore</option>
+          <option value="junior">Junior</option>
+          <option value="senior">Senior</option>        
+        </select>
+      </p>
+      
+      <p>
+        Where did you hear about me?<br>
+        <select name="refferal" multiple="multiple">
+          <option value="web">Web</option>
+          <option value="newspaper">Newspaper</option>
+          <option value="friends">Friends</option>
+        </select>  
+      </p>
+      
+      <input type="submit" value="SEND">
+      
+    </form>
+  </body>
+
+</html>
