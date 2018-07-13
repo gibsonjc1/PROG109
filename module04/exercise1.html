@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Module 03 Exercise #3">
+    <meta name="author" content="Josh Gibson">
+    <meta name="robots" content="noindex">
+    <title>Liquid Layout</title>
+    <style type="text/css">
+      * {
+        font-family: Arial, Verdana, sans-serif;
+        color: #665544;
+        text-align: center;}
+      body {
+        width: 90%;
+        margin: 0 auto;}
+      main {
+        overflow: auto;}
+      nav, section, footer {
+        margin: 1%;}
+      article {
+        width: 31.3%;
+        float: left;
+        margin: 1%;}
+      #col3 {
+        margin-right: 0%;}
+      li {
+        display: inline;
+        padding: 0.5em;}
+      nav, footer {
+        background-color: #efefef;
+        padding: 0.5em 0;}
+      section, article {
+        height: 10em;
+        margin-bottom: 1em;
+        background-color: #efefef;}
+      #ending{
+        text-align: left;}
+    </style>
+<!--    <link rel="stylesheet" href="exerciseXXX.css" type="text/css"> -->
+  </head>
+
+  <body>
+    <header>
+      <h1>Logo</h1>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <p>Feature</p>
+      </section>
+      <article>
+        <p>Column One</p>
+      </article>
+      <article>
+        <p>Column Two</p>
+      </article>
+      <article id="col3">
+        <p>Column Three</p>
+      </article>
+    </main>
+    <div id="footer">
+      <p>&copy; Copyright 2011</p>
+    </div>
+    
+    <div id="ending">
+      <hr>
+      <br>
+      <br>
+      <a href="http://www.w3.org/html/logo/">
+        <img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics" height="64">
+      </a><br>
+      <a href="https://validator.w3.org/check?uri=referer" target="_blank">W3C Validator</a><br>
+      <a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">CSS Validator</a>
+    </div>
+  
+  </body>
+
+</html>
