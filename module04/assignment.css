@@ -3,6 +3,10 @@
   text-align: center;}
 a:hover {
   font-weight: bold;}
+a:link {
+  color: lightyellow;}
+nav a:visited {
+  color: limegreen;}
 body {
   background-image: url(assignment_images/background.jpg);
   background-repeat: no-repeat;
@@ -11,21 +15,14 @@ body {
   width: 90%;
   margin: 0 auto;}
 nav {
-  background-color: rgba(19,85,137,0.5);
-}
-nav a:link {
-  color: lightyellow;
-  
-}
-nav a:visited {
-  color: darkseagreen;
-  opacity: 1;}
-
-section {}
-#col1 {}
-#col2 {}
-#col3 {}
-footer {}
+  background-color: rgba(19,85,137,0.7);}
+section {
+  background-color: rgba(97,192,191,0.7);}
+#col1 {
+  background-color: rgba(123,212,160,0.7);}
+#col2 {background-color: rgba(123,212,204,0.7);}
+#col3 {background-color: rgba(97,192,191,0.7);}
+footer {background-color: rgba(97,192,191,0.7);}
 main {
   overflow: auto;}
 nav, section, footer {
