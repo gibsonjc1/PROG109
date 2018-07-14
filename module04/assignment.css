@@ -5,7 +5,7 @@ a:hover {
   font-weight: bold;}
 a:link {
   color: lightyellow;}
-nav a:visited {
+a:visited {
   color: limegreen;}
 body {
   background-image: url(assignment_images/background.jpg);
