@@ -1,6 +1,8 @@
 * {
   font-family: Arial, Verdana, sans-serif;
   text-align: center;}
+a {
+  font-size: 140%;}
 a:hover {
   font-weight: bold;}
 a:link {
@@ -15,15 +17,18 @@ body {
   width: 90%;
   margin: 0 auto;}
 nav {
-  background-color: rgb(19,85,137);}
+  background-color: darkblue;}
 section {
-  background-color: rgb(97,192,191);}
+  background: rgb(21,103,150);
+  background-image: url(assignment_images/whaleshark.jpg);
+  background-repeat: no-repeat;
+}
 #col1 {
-  background-color: rgba(255,182,185,0.5);}
+  background-color: rgba(255,182,185,0.7);}
 #col2 {
-  background-color: rgba(255,227,145,0.5);}
+  background-color: rgba(255,227,145,0.7);}
 #col3 {
-  background-color: rgba(231,127,255,0.5);}
+  background-color: rgba(231,127,255,0.7);}
 footer {
   background-color: rgba(255,255,255,0.7);}
 main {
@@ -46,4 +51,5 @@ section, article {
   margin-bottom: 1em;}
 
 #ending{
+  background-color: rgba(0,0,0,0.7);
   text-align: left;}
