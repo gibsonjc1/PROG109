@@ -1,49 +1,59 @@
-* {
-  font-family: Arial, Verdana, sans-serif;
-  text-align: center;}
-a:hover {
-  font-weight: bold;}
-body {
-  background-image: url(assignment_images/background.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top center;
-  width: 90%;
-  margin: 0 auto;}
-nav {
-  background-color: rgba(19,85,137,0.5);
-}
-nav a:link {
-  color: lightyellow;
-  
-}
-nav a:visited {
-  color: darkseagreen;
-  opacity: 1;}
 
-section {}
-#col1 {}
-#col2 {}
-#col3 {}
-footer {}
-main {
-  overflow: auto;}
-nav, section, footer {
-  margin: 1%;}
-article {
-  width: 31.3%;
-  float: left;
-  margin: 1%;}
-#col3 {
-  }
-li {
-  display: inline;
-  padding: 0.5em;}
-nav, footer {
-  padding: 0.5em 0;}
-section, article {
-  height: 10em;
-  margin-bottom: 1em;}
+<!DOCTYPE html>
+<html lang="en">
 
-#ending{
-  text-align: left;}
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Module 04">
+    <meta name="author" content="Josh Gibson">
+    <meta name="robots" content="noindex">
+    <title>Module 04</title>
+    <link rel="stylesheet" href="assignment.css" type="text/css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Logo</h1>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <p>Feature</p>
+      </section>
+      <article id="col1">
+        <p>Column One</p>
+      </article>
+      <article id="col2">
+        <p>Column Two</p>
+      </article>
+      <article id="col3">
+        <p>Column Three</p>
+      </article>
+    </main>
+    <footer>
+      <p>&copy; Copyright 2011</p>
+    </footer>
+
+    <div id="ending">
+      <hr>
+      <br>
+      <br>
+      <a href="http://www.w3.org/html/logo/">
+        <img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
+      </a><br>
+      <a href="https://validator.w3.org/check?uri=referer" target="_blank">W3C Validator</a><br>
+      <a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">CSS Validator</a>
+    </div>
+
+  </body>
+
+</html>
