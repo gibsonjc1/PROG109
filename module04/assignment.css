@@ -16,11 +16,16 @@ body {
   background-position: top center;
   width: 90%;
   margin: 0 auto;}
+h1 {
+  font-family: 'ArchitectsDaughterRegular';
+  font-weight: normal;
+  font-style: normal;} 
 nav {
   background-color: darkblue;}
 section {
   background: rgb(21,103,150);
   background-image: url(assignment_images/whaleshark.jpg);
+  background-position: left;
   background-repeat: no-repeat;
 }
 #col1 {
