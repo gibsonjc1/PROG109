@@ -1,0 +1,30 @@
+body {
+  background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
+}
+#container {
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+.row {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.light {
+  border: 1px solid black;
+  width: 10%;
+  height: 60px;
+  background-color: white;
+  float: left;
+}
+.dark {
+  border: 1px solid black;
+  width: 10%;
+  height: 60px;
+  background-color: #787878;
+  float: left;
+}
+.clear {
+  clear: both;
+}
