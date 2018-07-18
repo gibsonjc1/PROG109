@@ -1,5 +1,7 @@
+/* To differentiate html classes of the board squares vs pieces, the board squares will be light and dark, while the pieces will be white and black. */
+
 body {
-  background-image: url("https://gibsonjc1.github.io/prog109/module03/artifact-02Images/chessBackground.jpg");
+  background-image: url("artifact-02Images/chessBackground.jpg");
 }
 a {
   font-size: 140%;
@@ -30,28 +32,78 @@ h1 {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 5%;
-}
+} 
+
+/* chessboard squares */
 .row {
   margin-left: 10%;
   margin-right: 10%;
 }
-.light {
-  border: 1px solid #110F0A;
-  width: 10%;
+.light, .dark {
+  width: 12.5%;
   height: 60px;
-  background-color: #E2CDAE;
   float: left;
 }
+.light {
+  background-color: #F2E6DA;
+}
 .dark {
-  border: 1px solid #110F0A;
-  width: 10%;
-  height: 60px;
-  background-color: #110F0A;
-  float: left;
+  background-color: #3F535E;
 }
 .clear {
   clear: both;
+  width: 1px;
 }
+
+/* chessboard pieces from a sprite image*/
+.black, .white {
+  background: url("artifact-02Images/chessPiecesSprite.png");
+  background-repeat: no-repeat;
+  display: block;
+  margin-top: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 52px;
+  width: 23px;
+}
+.black.king {
+  background-position: -0px -54px;
+}
+.black.queen {
+  background-position: -25px -54px;
+}
+.black.bishop {
+  background-position: -50px -54px;
+}
+.black.knight {
+  background-position: -75px -54px;
+}
+.black.rook {
+  background-position: -100px -54px;
+}
+.black.pawn {
+  background-position: -125px -54px;
+}
+.white.king {
+  background-position: -0px -0px;
+}
+.white.queen {
+  background-position: -25px -0px;
+}
+.white.bishop {
+  background-position: -50px -0px;
+}
+.white.knight {
+  background-position: -75px -0px;
+}
+.white.rook {
+  background-position: -100px -0px;
+}
+.white.pawn {
+  background-position: -125px -0px;
+}
+
+
 #ending {
   background-color: rgba(0, 0, 0, 0.5);
   width: 170px;
