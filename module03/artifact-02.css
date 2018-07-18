@@ -20,11 +20,12 @@ h1 {
   font-size: 300%;
   top: 0px;
   left: 0px;
-  padding: 10px;
-  margin: 0px;
+  padding: 15px;
+  margin: 2px 0px 2px 0px;
   width: 100%;
-  background-color: #F2E6DA;
+  background-color: rgba(242,230,218,0.7);
   text-align: center;
+  font-family: 'AnaktoriaRegular';
   z-index: 10;
 }
 #container {
@@ -59,10 +60,13 @@ h1 {
 .black, .white {
   background: url("artifact-02Images/chessPiecesSprite.png");
   background-repeat: no-repeat;
+  
+/* to center the pieces horizontally*/
   display: block;
-  margin-top: 4px;
   margin-left: auto;
   margin-right: auto;
+  
+  margin-top: 4px;
   height: 52px;
   width: 23px;
 }
@@ -105,8 +109,8 @@ h1 {
 
 
 #ending {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 170px;
-  text-align: left;
-  padding: 10px
+  background-color: rgba(63, 83, 94, 0.7);
+  text-align: center;
+  padding: 15px;
+  margin-top: 50px;
 }
