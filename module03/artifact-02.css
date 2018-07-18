@@ -1,5 +1,29 @@
 body {
-  background-image:url("https://pixabay.com/get/eb36b70d2af2073ed1534705fb094f93e77fe2d41dac104496f1c971a6eebdb8/black-2362266_1920.jpg");
+  background-image: url("https://gibsonjc1.github.io/prog109/module03/artifact-02Images/chessBackground.jpg");
+}
+a {
+  font-size: 140%;
+}
+a:hover {
+  font-weight: bold;
+}
+a:link {
+  color: lightyellow;
+}
+a:visited {
+  color: limegreen;
+}
+h1 {
+  position: fixed;
+  font-size: 300%;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+  margin: 0px;
+  width: 100%;
+  background-color: #E2CDAE;
+  text-align: center;
+  z-index: 10;
 }
 #container {
   margin-top: 20%;
@@ -12,19 +36,25 @@ body {
   margin-right: 10%;
 }
 .light {
-  border: 1px solid black;
+  border: 1px solid #110F0A;
   width: 10%;
   height: 60px;
-  background-color: white;
+  background-color: #E2CDAE;
   float: left;
 }
 .dark {
-  border: 1px solid black;
+  border: 1px solid #110F0A;
   width: 10%;
   height: 60px;
-  background-color: #787878;
+  background-color: #110F0A;
   float: left;
 }
 .clear {
   clear: both;
+}
+#ending {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 170px;
+  text-align: left;
+  padding: 10px
 }
