@@ -4,7 +4,7 @@
 
 body { 
     font-family: "Courier New", Courier, monospace;
-    background: url("../images/constructive-backdrop.jpg") no-repeat center center fixed; 
+    background: url("http://javascriptbook.com/code/c01/images/constructive-backdrop.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -24,7 +24,7 @@ h1, h3, p {
 h1 {
     margin: 50px 0 0 50px;
     height: 175px;
-    background-image: url("../images/constructive-logo.gif");
+    background-image: url("http://javascriptbook.com/code/c01/images/constructive-logo.gif");
     background-repeat: no-repeat;
     text-indent: -9999px;
     border-top: 1px solid #bcbdc0;
