@@ -4,13 +4,9 @@ var greeting;
 var firstName;
 var lastName
 
-// alert('Welcome user!');
-// firstName = prompt ('Please enter your first name');
-// lastName = prompt ('Please enter your last name');
-
-firstName = 'Josh';
-lastName = 'Gibson';
-
+alert('Welcome user!');
+firstName = prompt ('Please enter your first name');
+lastName = prompt ('Please enter your last name');
 
 if (hourNow > 18) {
     greeting = 'Good evening,<br />'+firstName+' '+lastName+'!';
