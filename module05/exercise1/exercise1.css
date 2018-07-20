@@ -32,7 +32,7 @@ h1 {
 	}
 h3 {
     margin: 0 0 0 50px;
-	height: 60px;
+    height: 60px;
     padding: 25px 0 0 0;
     font-family: 'Open Sans', arial, sans-serif;
     font-size: 1.8em;
@@ -54,14 +54,13 @@ p {
     border-left: 1px solid #bcbdc0;
 	}
 footer {
-	float: left;
+    float: left;
     clear: left;
     width: 320px;
     color: #5a514c;
     text-align: center;
-	margin: 0 0 0 50px;
+    margin: 0 0 0 50px;
     padding: 30px 0 25px 0;
-	background-color: rbga(0,0,0,0);
 }	
 
 /* Border under box when you move script in the last example */
