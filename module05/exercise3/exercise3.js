@@ -26,14 +26,19 @@ if (operator === '+') {
     msg += i + ' + ' + table + ' = ' + (i + table) + '<br />';
     i++;
   }
-} else if (operator === '*') {
+} else {
   // Do multiplication
   while (i < 11) {
     msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
     i++;
 	}
-	} else {
-	  msg = 'Please come back again!'
+}
+
+if ( table == '' || table == null ) {
+	msg = 'Have a nice day!';
+}
+if ( operator == '' || operator == null ) {
+	msg = 'Have a nice day!';
 }
 
 // Write the message into the page
