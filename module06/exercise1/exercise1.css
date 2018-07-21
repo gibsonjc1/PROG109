@@ -4,7 +4,11 @@ body {
 	background-color: #523620;
 	color: #fff;
 	font-family: 'Wellfleet', times, serif;
+	font-size: 150%;
 	margin: 0px 0px 0px 0px;}
+a {
+  font-size: 100%;
+}
 a:hover {
   font-weight: bold;
 }
@@ -59,8 +63,7 @@ h1 {
 	height: 370px;
 	width: 600px;
 	text-align: center;
-	font-size: 150%;
 	}
-	footer {
+footer {
   padding: 15px;
 }
