@@ -1,0 +1,79 @@
+* {
+  font-family: Arial, Verdana, sans-serif;
+} 
+a:hover {
+  font-weight: bold;
+}
+a:link {
+  color: yellow;
+}
+a:visited {
+  color: darkgreen;
+}
+body {
+  background-image: url(images/background2.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: contain;
+  width: 90%;
+  margin: 0 auto;
+}
+header {
+  min-height: 300px;
+  text-align: center;
+  vertical-align: bottom;
+} 
+#empty {
+  height: 50px;
+}
+h1, h2 {
+  font-family: 'ArchitectsDaughterRegular'; 
+  font-weight: bold;
+  text-shadow: 0 0 5px white;
+}
+nav {
+  background-color: rgba(0,45,101,0.7);
+  font-size: 120%;
+}
+ul {
+  padding-right: 40px;
+}
+li {
+  display: inline;
+  padding: 0.5em;
+}
+nav a{
+  font-family: 'ArchitectsDaughterRegular';
+}
+nav a:visited{
+  color: limegreen;
+}
+section {
+  min-height: 10em;
+  margin-bottom: 1em;
+  padding: 1px 20px 20px 20px;
+  background: rgba(150,153,156,0.7);
+  font-size: 120%;
+}
+.artifact {
+  height: 180px;
+}
+img.align-left {
+  float: left;
+  margin-right: 20px;
+}
+footer {
+  text-align: left;
+  font-size: 140%;
+}
+nav, section, footer {
+  margin: 1%;
+}
+nav, footer {
+  padding: 0.5em 0;
+}
+.clear {
+  clear: both;
+  width: 1px;
+}

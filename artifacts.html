@@ -7,7 +7,7 @@
 	<meta name="description" content="Class home page">
 	<meta name="author" content="Josh Gibson">
 	<meta name="robots" content="noindex">
-	<title>BC PROG109 Summer 2018 Home Page</title>
+	<title>My Artifacts</title>
 	<link rel="stylesheet" href="style.css" type="text/css">
 	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/architect-s-daughter" type="text/css"/>
 </head>
@@ -15,9 +15,8 @@
 <body>
 
 	<header>
-		<h1>Bellevue College Programming 109</h1>
-		<h1>Summer 2018</h1>
-		<h2>By Josh Gibson</h2>
+		<div id="empty"></div>
+		<h1>My Artifacts</h1>
 		<nav>
 			<ul>
 				<li><a href="index.html">Home</a></li>
@@ -31,11 +30,23 @@
 		</nav>
 	</header>
 	<main>
-		<section>
-			<p>
-				Hello and welcome to my portfolio design site for <em>Introduction to Web Development</em>, where I'm hosting all of my assignments and artifacts for the class for the final project in the class.  Above on the navigation bar, you can find links to my coursework at Bellevue College as of July 2018, the assignments and artifacts for my <em>Introduction to Web Development</em> class, as well as information about me, both professionally and personal interests, a contact form to email me, and a link back to this page.
-			</p>
-		</section>
+      <section>
+        <div class="artifact">
+			<a href="artifacts/artifact-01.html">
+				<img src="images/resume.jpg" alt="Resume Thumbnail" title="Resume Thumbnail" class="align-left"/>
+				<h3>Resume</h3>
+			</a>
+			<p>A webpage that uses standard HTML tags only and one image.  No CSS included.</p>
+			<div class="clear"> </div>
+        </div>
+        <div class="artifact">
+			<a href="artifacts/artifact-02.html">
+				<img src="images/chessboard.jpg" alt="Chessboard Thumbnail" title="Chessboard Thumbnail" class="align-left"/>
+				<h3>Chessboard</h3>
+			</a>
+			<p>A webpage that uses floating boxes with relative width to create a chassboard.  A single sprite was used for the chess pieces.  No tables were allowed.</p>
+        </div>
+      </section>
 	</main>
 	<footer>
 		<hr>
