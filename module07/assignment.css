@@ -15,14 +15,12 @@ a:visited {
 /* JavaScript & jQuery - Chapter 3: Functions, Methods & Programming */
 /* The book used a font called Eau Sans - the download examples use Open Sans */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-
 body {
   background-color: #fff;
   background: url("assignment-images/travelworthy-backdrop.jpg") no-repeat center center fixed;
   background-size: cover;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;}
+  font-family: sans-serif;}
 
 h1 {
   background: #1e1b1e url("assignment-images/travelworthy-logo.gif") no-repeat;
