@@ -1,0 +1,25 @@
+a {
+  font-size: 140%;
+}
+a:hover {
+  font-weight: bold;
+}
+a:link {
+  color: yellow;
+}
+a:visited {
+  color: limegreen;
+}
+footer {
+  text-align: left;
+  padding-top: 50px;
+}
+#output {
+  padding-top: 20px;
+  font-size: 200%;
+  font-family: 'FantasqueSansMonoRegular';
+  font-weight: bold; 
+}
+p {
+  margin: 0;
+}
