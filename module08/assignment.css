@@ -155,9 +155,3 @@ p {
         margin: 20px auto 20px auto;
    	}
 }
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
-    h1{
-        background-image: url(assignment-images/2xkinglogo.png);
-        background-size: 72px 72px;
-    }
-}
