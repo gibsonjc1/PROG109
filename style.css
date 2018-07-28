@@ -16,25 +16,42 @@ body {
   background-attachment: fixed;
   background-position: top center;
   background-size: contain;
-  width: 90%;
   margin: 0 auto;
 }
+/* Minimum aspect ratio */
+@media (min-aspect-ratio: 1/1) {
+  body {
+    width: 80%;
+  }
+  nav, section {
+  border-radius: 20px;
+  margin: 1%;
+  }
+}
+/* Maximum aspect ratio */
+@media (max-aspect-ratio: 1/1) {
+  div {
+    width: auto;
+  }
+}
 header {
-  min-height: 300px;
   text-align: center;
   vertical-align: bottom;
 } 
-#empty {
-  height: 50px;
+h1 {
+  margin-top: 75px;
+  text-shadow: 0 0 5px white;
 }
 h1, h2 {
   font-family: 'ArchitectsDaughterRegular'; 
   font-weight: bold;
-  text-shadow: 0 0 5px white;
 }
 nav {
   background-color: rgba(0,45,101,0.7);
   font-size: 120%;
+}
+main {
+  margin-top: 50px;
 }
 ul {
   padding-right: 40px;
@@ -66,8 +83,6 @@ img.align-left {
 footer {
   text-align: left;
   font-size: 140%;
-}
-nav, section, footer {
   margin: 1%;
 }
 nav, footer {
