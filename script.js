@@ -34,9 +34,7 @@ function displayDynamicTimes () {
 	
 }
 //----------------------------------------------------------------------
-// Display the web address of the current page in <p id="web address"> of .html
 
-document.getElementById('web address').innerHTML = "The url of this page is: &nbsp " + window.location.protocol + window.location.host + window.location.pathname;
 
 
 //----------------------------------------------------------------------
