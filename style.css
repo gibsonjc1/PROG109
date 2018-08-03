@@ -23,9 +23,9 @@ body {
   body {
     width: 80%;
   }
-  nav, section {
+  nav, section, footer {
   border-radius: 20px;
-  margin: 1%;
+  margin: 5%;
   }
 }
 /* Maximum aspect ratio */
@@ -60,6 +60,9 @@ li {
   display: inline;
   padding: 0.5em;
 }
+br {
+  padding: 1px;
+}
 nav a{
   font-family: 'ArchitectsDaughterRegular';
 }
@@ -68,10 +71,8 @@ nav a:visited{
 }
 section {
   min-height: 10em;
-  margin-bottom: 1em;
-  padding: 1px 20px 20px 20px;
-  background: rgba(150,153,156,0.7);
   font-size: 120%;
+  background: rgba(150,153,156,0.7);
 }
 .artifact {
   height: 180px;
@@ -81,14 +82,21 @@ img.align-left {
   margin-right: 20px;
 }
 footer {
-  text-align: left;
-  font-size: 140%;
-  margin: 1%;
+  background: rgba(225,225,225,0.7);	
 }
-nav, footer {
+footer a{
+  font-size: 140%;
+}
+nav {
   padding: 0.5em 0;
 }
+section, footer {
+  padding: 1px 20px 20px 20px;
+  }
 .clear {
   clear: both;
   width: 1px;
+}
+form {
+  margin: 20px 0 0 40px;
 }
