@@ -30,7 +30,7 @@ function displayDynamicTimes () {
 	var currentDateTime = formatDateTime (new Date());
 	var editedDateTime = formatDateTime (new Date(document.lastModified));
 	
-	document.getElementById('date time').innerHTML = "The current date and time is: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp " + currentDateTime + ".<br>The html of this page was last modified on: &nbsp " + editedDateTime + ".";
+	document.getElementById('date-time').innerHTML = "The current date and time is: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp " + currentDateTime + ".<br>The html of this page was last modified on: &nbsp " + editedDateTime + ".";
 	
 }
 //----------------------------------------------------------------------
