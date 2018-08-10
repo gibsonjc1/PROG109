@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<meta name="description" content="Class home page">
+	<meta name="description" content="My Artifacts">
 	<meta name="author" content="Josh Gibson">
 	<meta name="robots" content="noindex">
 	<title>My Artifacts</title>
@@ -16,7 +16,7 @@
 
 	<header>
 		<h1>My Artifacts</h1>
-		<nav>
+		<nav>    
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About</a></li>
@@ -30,39 +30,53 @@
 	</header>
 	<main>
       <section>
+	  	<h3>All links will open modules in a new tab</h3>
+
 		<div class="artifact">
 			<a href="artifacts/artifact-01.html" target="_blank">
 				<img src="images/resume.jpg" alt="Resume Thumbnail" title="Resume Thumbnail" class="align-left" />
 				<h3>Resume</h3>
 			</a>
 			<p>A webpage that uses standard HTML tags only and one image.  No CSS included.</p>
-			<div class="clear"> </div>
 		</div>
+		
 		<div class="artifact">
 			<a href="artifacts/artifact-02.html" target="_blank">
 				<img src="images/chessboard.jpg" alt="Chessboard Thumbnail" title="Chessboard Thumbnail" class="align-left" />
 				<h3>Chessboard</h3>
 			</a>
-			<p>A webpage that uses floating boxes with relative width to create a chassboard.  A single sprite was used for the chess pieces.  No tables were allowed.</p>
+			<p>A webpage that uses floating boxes with relative width to create a chessboard.  A single sprite was used for the chess pieces.  No tables were allowed.</p>
 		</div>
+		
 		<div class="artifact">
 			<a href="artifacts/artifact-03.html" target="_blank">
 				<img src="images/rhombus.jpg" alt="Rhombus Thumbnail" title="Rhombus Thumbnail" class="align-left" />
 				<h3>Rhombus</h3>
 			</a>
-			<p>A webpage that uses javascript to create a rhombus (or diamond).  The user selects how tall to make the rhombus, what two colors to use, and the character to create the rhombus with in an html form that has basic error checking.</p>
+			<p>A webpage that uses JavaScript to create a rhombus (or diamond).  The user selects how tall to make the rhombus, what two colors to use, and the character to create the rhombus with in an html form that has basic error checking.</p>
+		</div>
+		
+		<div class="artifact">
+			<a href="artifacts/artifact-04.html" target="_blank">
+				<img src="images/form.jpg" alt="Contact Form Thumbnail" title="Contact Form Thumbnail" class="align-left" />
+				<h3>Form</h3>
+			</a>
+			<p>A webpage that uses JavaScript to validate the form before passing in on to a server.  Error messages show up under the form boxes in question, and submissions are validated for length, and in some cases, valid characters.</p>
 		</div>
       </section>
 	</main>
 	<footer>
-		<hr>
+		<p id="date time"></p>
+		<br>
 		<a href="http://www.w3.org/html/logo/">
 			<img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
 		</a><br>
 		<a href="https://validator.w3.org/check?uri=referer" target="_blank">W3C Validator</a><br>
 		<a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">CSS Validator</a>
 	</footer>
-
+	
+	<script src="script.js"></script>
+	
 </body>
 
 </html>
