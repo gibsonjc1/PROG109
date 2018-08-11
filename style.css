@@ -1,15 +1,7 @@
+/*----------UNIVERSAL PAGE LAYOUT ELEMENT MODIFIERS----------*/
 * {
   font-family: Arial, Verdana, sans-serif;
 } 
-a:hover {
-  font-weight: bold;
-}
-a:link {
-  color: yellow;
-}
-a:visited {
-  color: darkgreen;
-}
 body {
   background-image: url(images/background2.png);
   background-repeat: no-repeat;
@@ -23,23 +15,57 @@ body {
   body {
     width: 80%;
   }
-  nav, section, article, footer {
-  border-radius: 20px;
-  margin: 5%;
+  nav, section, footer {
+    border-radius: 20px;
+    margin: 5%;
+  }
+  article {
+    border-radius: 20px;
+    margin: 2%;
   }
 }
 /* Maximum aspect ratio */
 @media (max-aspect-ratio: 1/1) {
-  div {
-    width: auto;
+  nav, section, article, footer  {
+  margin: 20px 2px;
   }
 }
 header {
   text-align: center;
   vertical-align: bottom;
 } 
+nav {
+  background-color: rgba(0,45,101,0.7);
+  font-size: 120%;
+  padding: 0.5em 0;
+}
+main {
+  margin-top: 50px;
+}
+section {
+  min-height: 10em;
+  font-size: 120%;
+  background: rgba(150,153,156,0.7);
+  overflow:auto;
+  padding: 25px;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+article {
+  font-size: 80% !important;
+  padding-bottom: 10px;
+  background: rgba(225,225,225,0.9);
+  padding: 20px;
+}
+footer {
+  padding: 25px;
+  background: rgba(225,225,225,0.7);
+}
+
+
+/*----------UNIVERSAL TEXT & LINK ELEMENT MODIFIERS----------*/
 h1, h2 {
-  font-family: 'ArchitectsDaughterRegular'; 
+  font-family: 'ArchitectsDaughterRegular';
   font-weight: bold;
 }
 h1 {
@@ -47,47 +73,60 @@ h1 {
   text-shadow: 0 0 5px white;
 }
 h3 {
-  font-family: 'ArchitectsDaughterRegular'; 
+  font-family: 'ArchitectsDaughterRegular';
+  margin-top: 0px;
 }
 h4 {
   margin: 0px;
   padding: 20px 0px 0px 20px;
 }
-nav {
-  background-color: rgba(0,45,101,0.7);
-  font-size: 120%;
-}
-main {
-  margin-top: 50px;
-}
 ul {
   padding-right: 40px;
-}
-nav li{
-  display: inline;
-  padding: 0.5em;
-}
-li.list2 {
-  
 }
 br {
   padding: 1px;
 }
+p{
+  margin: 0px;
+}
+a:hover {
+  font-weight: bold;
+}
+a:link {
+  color: darkgoldenrod;
+}
+a:visited {
+  color: darkgreen;
+}
+
+
+/*----------ALL PAGES ELEMENT MODIFIERS----------*/
+nav li{
+  display: inline;
+  padding: 0.5em;
+}
 nav a{
   font-family: 'ArchitectsDaughterRegular';
 }
-footer a:link{
-  color: darkgoldenrod;
+nav a:link{
+  color: yellow;
 }
 nav a:visited{
   color: limegreen;
 }
-section {
-  min-height: 10em;
-  font-size: 120%;
-  background: rgba(150,153,156,0.7);
-  overflow:auto;
+footer a{
+  font-size: 140%;
 }
+
+
+/*----------INDIVIDUAL PAGE CLASS/ID MODIFIERS----------*/
+
+
+/*---------about---------*/
+/*-----------------------*/
+
+
+/*-------artifacts-------*/
 .artifact {
   height: 180px;
 }
@@ -95,44 +134,32 @@ img.align-left {
   float: left;
   margin-right: 20px;
 }
-footer {
-  background: rgba(225,225,225,0.7);	
+/*-----------------------*/
+
+
+/*--------modules--------*/
+.module p {
+  margin: 0 0 0 2em !important;
 }
-footer a{
-  font-size: 140%;
+.module h3 {
+  margin-bottom: 0;
 }
-nav {
-  padding: 0.5em 0;
+#fakeLink h3{
+  color: darkgoldenrod;
 }
-section, footer {
-  padding: 1px 20px 20px 20px;
-}
-.clear {
-  clear: both;
-  width: 1px;
-}
+/*-----------------------*/
+
+
+/*--------contact--------*/
 form {
-  margin: 20px 10% 0 20px;
+  margin: 20px 10% 20px 20px;
   float: left;
 }
 .error {
   color: darkred;
 }
-.error p{
-  margin: 0px;
-}
 .error img{
   vertical-align: bottom;
-}
-section {
-  background-position: left;
-  background-repeat: no-repeat;
-}
-article {
-  font-size: 80% !important;
-  margin: 1%;
-  padding-bottom: 10px;
-  background: rgba(225,225,225,0.9);
 }
 #warning {
   margin: 10%;
@@ -140,12 +167,8 @@ article {
   width: 50%;
   color: darkred;
 }
-#fakeLink h3{
-  color: yellow;
-}
-.module p {
-  margin: 0 0 0 2em;
-}
-.module h3 {
-  margin-bottom: 0;
-}
+/*-----------------------*/
+
+
+/*-------interests-------*/
+/*-----------------------*/
