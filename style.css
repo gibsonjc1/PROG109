@@ -37,7 +37,7 @@ header {
 nav {
   background-color: rgba(0,45,101,0.7);
   font-size: 120%;
-  padding: 0.5em 0;
+  overflow: hidden;
 }
 main {
   margin-top: 50px;
@@ -47,18 +47,17 @@ section {
   font-size: 120%;
   background: rgba(150,153,156,0.7);
   overflow:auto;
-  padding: 25px;
+  padding: 35px 50px;
   background-position: left;
   background-repeat: no-repeat;
 }
 article {
   font-size: 80% !important;
-  padding-bottom: 10px;
   background: rgba(225,225,225,0.9);
   padding: 20px;
 }
 footer {
-  padding: 25px;
+  padding: 35px 50px;
   background: rgba(225,225,225,0.7);
 }
 
@@ -80,17 +79,11 @@ h4 {
   margin: 0px;
   padding: 20px 0px 0px 20px;
 }
-ul {
-  padding-right: 40px;
-}
 br {
   padding: 1px;
 }
 p{
   margin: 0px;
-}
-a:hover {
-  font-weight: bold;
 }
 a:link {
   color: darkgoldenrod;
@@ -101,29 +94,39 @@ a:visited {
 
 
 /*----------ALL PAGES ELEMENT MODIFIERS----------*/
-nav li{
+nav ul {
+  padding-right: 40px;
+  margin: 0px;
+}
+nav li{  
   display: inline;
-  padding: 0.5em;
 }
 nav a{
+  display: inline-block;
   font-family: 'ArchitectsDaughterRegular';
+  padding: 20px 14px;
+}
+nav a:hover {
+  background-color: rgba(0,27,61,0.7);
 }
 nav a:link{
-  color: yellow;
+  color: white;
 }
 nav a:visited{
   color: limegreen;
 }
+section a:link{
+  color: white;
+}
 footer a{
   font-size: 140%;
+}
+blockquote {
+  margin: 20px 80px;
 }
 
 
 /*----------INDIVIDUAL PAGE CLASS/ID MODIFIERS----------*/
-
-
-/*---------about---------*/
-/*-----------------------*/
 
 
 /*-------artifacts-------*/
@@ -171,4 +174,7 @@ form {
 
 
 /*-------interests-------*/
+#youtube {
+  height: 600px;
+}
 /*-----------------------*/
