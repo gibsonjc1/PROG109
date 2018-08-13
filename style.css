@@ -181,5 +181,6 @@ img.align-left {
 #youtube {
   width: 416px;
   height: 234px;
+  border-style: none;
 }
 /*-----------------------*/
